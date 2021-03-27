@@ -2,7 +2,7 @@
 A simple demo example of the **Functional Core, Imperative Shell** pattern in TypeScript. For more details about this pattern, please check out my blog post, [The Functional Core, Imperative Shell Pattern](https://www.kennethlange.com/functional-core-imperative-shell/).
 
 ## Functional Core
-The Functional Core (`core.ts`) implements the **Blog Post Workflow shown** in my blog post, [How to Model Workflows in REST APIs](https://www.kennethlange.com/how-to-model-workflows-in-rest-apis/), in a functional way using immutable values and pure functions.
+The Functional Core (`core.ts`) implements the **Blog Post Workflow** shown in my blog post, [How to Model Workflows in REST APIs](https://www.kennethlange.com/how-to-model-workflows-in-rest-apis/), in a functional way using immutable values and pure functions.
 
 Each state in the workflow is implemented as an immutable type and uses the tagged union pattern (with the `status` property) to easily differentiate between the different states. 
 
